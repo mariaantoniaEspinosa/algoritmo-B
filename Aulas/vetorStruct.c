@@ -6,10 +6,10 @@ struct tipoAluno {
 	float mediaVestibular;
 };
 int main (){
-	struct tipoAluno alunos[2];
+	struct tipoAluno alunos[5];
 	int i;
 	
-	for(i=0; i<2; i++){
+	for(i=0; i<5; i++){
 		printf ("Digite os dados do aluno %d:\n", i+1);
 		
 		printf ("Matricula: ");
