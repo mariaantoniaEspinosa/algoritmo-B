@@ -38,27 +38,31 @@ int main (){
 		scanf (" %d", &opcao);
 	}
 	
-	while (opcao == 0){
-		printf ("\n***ESCOLHA:***\n");
-		printf ("a: listar os dados de todos os produtos\n");
-		printf ("b: listar os dados de um produto, conforme o codigo\n");
-		printf ("c: listar os produtos cuja quantidade em estoque eh zero\n");
-		printf ("d: mostrar os dados do produto de maior valor de venda\n");
-		printf ("e: mostrar os dados do produto de menor valor de venda\n");
-		printf ("f: sair\n");
-		scanf ("%c", &escolha);
-	
-		if (escolha == 'a'){
-			printf ("\n***DADOS***\n");
-			for (j=0; j<i; j++){
-				printf ("Codigo: %d\n", p[j].cod);
-				printf ("Nome: %s\n", p[j].nome);
-				printf ("Unidades: %d\n", p[j].und);
-				printf ("Custo: %f\n", p[j].custo);
-				printf ("Venda: %f\n", p[j].venda);
-				printf ("Lucro em %%: %f\n", p[i].percentual);
-				printf ("Estoque: %d\n", p[j].estoque);	
-			}	
+	if (opcao == 0){
+		do{
+			printf ("\n***ESCOLHA:***\n");
+			printf ("a: listar os dados de todos os produtos\n");
+			printf ("b: listar os dados de um produto, conforme o codigo\n");
+			printf ("c: listar os produtos cuja quantidade em estoque eh zero\n");
+			printf ("d: mostrar os dados do produto de maior valor de venda\n");
+			printf ("e: mostrar os dados do produto de menor valor de venda\n");
+			printf ("f: sair\n");
+			printf ("Escolha: ");
+			scanf ("%c", &escolha);	
+			if (escolha == 'a'){
+				printf ("\n***DADOS***\n");
+				for (j=0; j<i; j++){
+					printf ("Codigo: %d\n", p[j].cod);
+					printf ("Nome: %s\n", p[j].nome);
+					printf ("Unidades: %d\n", p[j].und);
+					printf ("Custo: %f\n", p[j].custo);
+					printf ("Venda: %f\n", p[j].venda);
+					printf ("Lucro em %%: %f\n", p[i].percentual);
+					printf ("Estoque: %d\n", p[j].estoque);	
+				}	
+			}else if (escolha == 'b'){
+				
+			}
 		}
 	}
 	return 0;
