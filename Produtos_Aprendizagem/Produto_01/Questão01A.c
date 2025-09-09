@@ -4,6 +4,7 @@ struct cliente{
 	char telefone[15];
 	char nome[50];
 	char data[11];
+	float valor;
 	int novo;
 };
 //declaração da variável
