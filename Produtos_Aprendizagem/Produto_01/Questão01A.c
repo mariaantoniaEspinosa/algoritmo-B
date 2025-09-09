@@ -1,4 +1,5 @@
 //questão 01 - a
+//montar a struct
 struct cliente{
 	char cpf[15];
 	char telefone[15];
