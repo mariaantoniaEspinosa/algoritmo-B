@@ -23,3 +23,5 @@ int main(){
 	
 	return 0;
 }
+//função interativa = for
+//função recursiva = função
