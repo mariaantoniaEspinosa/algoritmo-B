@@ -42,9 +42,15 @@ return 0;
 int *p;
 int i = 3;
 p = &i;
-a) *p é igual a 3 = o conteúdo apontado por p é igual a 3 = verdadeira.
-b) p é igual a 3 = p é igual ao endereço de i;
-c) p armazena o endereço de i = sim = verdadeiro;
-d) ao executar *p = 50, i terá valor 50 = o conteúdo apontado por p recebe 50, consequentemente i recebe o valor 50 = verdadeiro;
-e) ao ser alterado o valor de i, *p será modificado = o conteúdo apontado por p será modificado = verdadeiro;
-f) ao ser alterado o valor de i, p será modificado = p continuará sendo o endereço de i = falso;
+### a)
+*p é igual a 3 = o conteúdo apontado por p é igual a 3 = verdadeira.
+### b)
+p é igual a 3 = p é igual ao endereço de i;
+### c)
+p armazena o endereço de i = sim = verdadeiro;
+### d)
+ao executar *p = 50, i terá valor 50 = o conteúdo apontado por p recebe 50, consequentemente i recebe o valor 50 = verdadeiro;
+### e)
+ao ser alterado o valor de i, *p será modificado = o conteúdo apontado por p será modificado = verdadeiro;
+### f)
+ao ser alterado o valor de i, p será modificado = p continuará sendo o endereço de i = falso;
