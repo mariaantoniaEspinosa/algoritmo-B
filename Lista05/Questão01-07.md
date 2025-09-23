@@ -1,11 +1,14 @@
 # QUESTÕES LISTA 05 - TEORIA SOBRE PONTEIROS 
 ## 1) 
 char *a, b = 'B';
+
 a = &b; a contém o endereço de B.
 
 ## 2)
 p = &x;
+
 sem ponteiros : x = 10;
+
 com ponteiros: *p = x;
 
 ## 3)
