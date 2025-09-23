@@ -13,38 +13,56 @@ com ponteiros: *p = x;
 
 ## 3)
 float a; variavél do tipo float.
+
 float *b; variavél float com ponteiro.
+
 float c[10]; variavél float com espaço 10.
+
 float d[3][3]; variável float, matiz.
 
 ## 4)
 a == &pa (pa é um ponteiro, a está recebendo um endereõ sem ser ponteiro) = falsa
+
 a == *pa (a está apontando para o valor de pa) = verdadeira
+
 pa == *a = falsa
+
 pa == &a = verdadeira
 
 ## 5)
 x é inteiro, seu ponteiro para inteiro é px, que recebe endereço de x, px = &x;
+
 Para fazer sua leitura correta = scanf("%d", px) OU scanf("%d", &x)
 
 ## 6)
 int x, *px;
+
 px = &x;
+
 *px = *px/10;
 
 ## 7)
 qual o erro do trecho abaixo?
+
  int main()
+ 
 {
+
   int a, *pa;
+  
 *pa = 5; //o erro está aqui! O correto seria *pa = &a;
+
 return 0;
+
 }
 
 ## 8)
 int *p;
+
 int i = 3;
+
 p = &i;
+
 ### a)
 *p é igual a 3 = o conteúdo apontado por p é igual a 3 = verdadeira.
 ### b)
