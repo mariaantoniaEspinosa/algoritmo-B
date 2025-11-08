@@ -1,6 +1,6 @@
 //QUESTÃO 06 LISTA 04 RECURSSIVIDADE 
 #include <stdio.h>
-void crescente(int n){
+void decrescente(int n){
 	if(n == 0){
 		return ;
 	}
